@@ -1,0 +1,60 @@
+// Program to Print Day Names using Else If Ladder in C++ //
+#include <iostream>
+using namespace std;
+int main()
+{
+ int day;
+ cout << "Enter Day Number: ";
+ cin >> day;
+ cout << "Day is ";
+ if (day == 1)
+ cout << "Sunday" << endl;
+ else if (day == 2)
+ cout << "Monday" << endl;
+ else if (day == 3)
+ cout << "Tuesday" << endl;
+ else if (day == 4)
+ cout << "Wednesday" << endl;
+ else if (day == 5)
+ cout << "Thursday" << endl;
+ else if (day == 6)
+ cout << "Friday" << endl;
+ else
+ cout << "Saturday" << endl;
+ // The if statement(if-in lowercase letters) //
+ #include <iostream>
+using namespace std;
+int main() {
+ int x = 20;
+ int y = 18;
+ if (x > y) {
+ cout << "x is greater than y";
+ } 
+ return 0;
+}
+// The else if statement(else if ladder) //
+#include <iostream>
+using namespace std;
+int main()
+{
+int time = 22;
+if (time < 10) {
+ cout << "Good morning.";
+} else if (time < 20) {
+ cout << "Good day.";
+} else {
+ cout << "Good evening.";
+}
+return 0;
+}
+// for Loop //
+#include <iostream>
+using namespace std;
+int main() 
+{
+ for (int i = 0; i < 5; i++) 
+{
+ cout << i << "\n";
+ }
+ return 0;
+}
