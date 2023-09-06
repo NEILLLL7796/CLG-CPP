@@ -79,4 +79,38 @@ void main()
             cin>>q[i] [j];
         }
     }
+    for (i=0;i<=2;i++)
+    {
+        for(j=0;j<=2;j++)
+        {
+            r[i] [j] = p[i] [j] + q [i] [j] ;
+        }
+    }
+    cout << "the first matrix is \n";
+    for (i=0;i<=2;i++)
+    {
+        for(j=0;j<=2;j++)
+        {
+            cout<<p[i] [j]<<"\t";
+        }
+        cout<<endl;
+    }
+    cout<<"the second matrix is \n";
+    for (i=0;i<=2;i++)
+    {
+        for (j=0;j<=2;j++)
+        {
+            cout<<q[i] [j] <<"\t";
+        }
+        cout<<endl;
+    }
+    cout<<"the addition of matrix is\n";
+    for (i=0;i<=2;i++)
+    {
+        for(j=0;j<=2;j++)
+        {
+            cout<<r[i] [j] <<"\t";
+        }
+        cout<<endl;
+    }
 }
