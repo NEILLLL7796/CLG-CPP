@@ -58,3 +58,25 @@ int main()
  }
  return 0;
 }
+// two matrices//
+#include<iostream.h>
+void main()
+{
+    int p[3] [3] , p[3] [3] , r [3] [3] , i , j ;
+    cout << "enter the elements of the first matrix in order 3 x 3 \n" ;
+    for (i=0;i<=2;i++)
+    {
+        for(j=0;j<=2;j++)
+        {
+            cin>>p[i] [j];
+        }
+    }
+    cout <<"enter the element of second matrix of order 3 x 3\n";
+    for (i=0;i<=2;i++)
+    {
+        for(j=0;j<=2;j++)
+        {
+            cin>>q[i] [j];
+        }
+    }
+}
