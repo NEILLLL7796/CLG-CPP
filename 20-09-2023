@@ -1,0 +1,82 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    for (int i=0;i<5;i++)
+    {
+        for (int j=0;j<=i;j++)
+        {
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+}
+
+// // #include<iostream>
+// // using namespace std;
+// // int main()
+// // {
+// //     for (int i=0;i<5;i++)
+// //     {
+// //         for (int j=0;j<=i;j++)
+// //         {
+// //             cout<<"*";
+// //         }
+// //         cout<<endl;
+// //     }
+// // }
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     struct 
+//     {
+//         string NAME;
+//         int ROLL;
+//         int PRN;
+        
+//     }myfriend1,myfriend2;
+//     //FRIEND INFO 1
+//     myfriend1.NAME ="NEIL"; 
+//     myfriend1.ROLL =2271;
+//     myfriend1.PRN = 202201090169;
+
+//     //FRIEND INFO 2
+
+//     myfriend2.NAME ="ELVIS"; 
+//     myfriend2.ROLL =2296;
+//     myfriend2.PRN = 202201090196;
+
+//     //PRINT THE INFO
+
+//     cout<<myfriend1.NAME <<" "<< myfriend1.ROLL <<""<< myfriend1.PRN <<endl;
+//     cout<<myfriend2.NAME <<" "<< myfriend2.ROLL <<""<< myfriend2.PRN <<endl;
+
+    
+// }
+#include<iostream>
+using namespace std;
+int main()
+{
+    struct 
+    {
+        string NAME;
+        double ROLL;
+        double PRN;
+        
+    } myfriend1, myfriend2;
+
+    // FRIEND INFO 1
+    myfriend1.NAME = "NEIL"; 
+    myfriend1.ROLL = 2271;
+    myfriend1.PRN = 169;
+
+    // FRIEND INFO 2
+    myfriend2.NAME = "ELVIS"; 
+    myfriend2.ROLL = 2296;
+    myfriend2.PRN = 196;
+
+    // PRINT THE INFO
+    cout << myfriend1.NAME << " " << myfriend1.ROLL << " " << myfriend1.PRN << endl;
+    cout << myfriend2.NAME << " " << myfriend2.ROLL << " " << myfriend2.PRN << endl;
+}
